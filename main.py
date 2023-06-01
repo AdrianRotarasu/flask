@@ -29,8 +29,8 @@ def index():
 
 @app.route('/uploads/<filename>', methods=['GET'])
 def get_uploaded_file(filename):
-    return send_from_directory('static/modified_uploads', filename)
-
+    #return send_from_directory('static/modified_uploads', filename)
+    return send_file('static/modified_uploads',filename)
 
 if __name__ =="__main__":
     app.run(debug=True)
