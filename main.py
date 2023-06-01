@@ -28,7 +28,8 @@ def index():
     # return render_template('index.html', upload=False)
 
 @app.route('/uploads', methods=['GET'])
-def get_uploaded_file(filename):
+#def get_uploaded_file(filename):
+def get_uploaded_file():
     #return send_from_directory('static/modified_uploads', filename)
     return get_uploaded_file('static/modified_uploads/adi6.jpg')
 
