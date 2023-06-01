@@ -30,7 +30,7 @@ def index():
 @app.route('/uploads', methods=['GET'])
 def get_uploaded_file(filename):
     #return send_from_directory('static/modified_uploads', filename)
-    return send_file('static/modified_uploads/adi6.jpg',mimetype='image/jpg')
+    return get_uploaded_file('static/modified_uploads/adi6.jpg')
 
 if __name__ =="__main__":
     app.run(debug=True)
