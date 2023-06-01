@@ -10,3 +10,4 @@ numpy
 pytesseract
 ultralytics
 opencv-python
+flask_cors
