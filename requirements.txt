@@ -11,4 +11,4 @@ pytesseract
 ultralytics
 opencv-python
 flask_cors
-opencv
+
