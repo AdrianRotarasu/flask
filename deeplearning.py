@@ -8,7 +8,7 @@ from ultralytics import YOLO
 #rf = Roboflow(api_key="Bv81WfXp2nY9ZIi2UdH6")
 #project = rf.workspace().project("vehicle-registartion-plate-finder")
 #modelRf = project.version(2).model
-modelYolov8 = YOLO('./static/models/yolov8v2.pt')
+modelYolov8 = YOLO('./yolov8v2.pt')
 
 
 
