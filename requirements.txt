@@ -9,3 +9,4 @@ matplotlib
 numpy
 pytesseract
 ultralytics
+opencv-python
